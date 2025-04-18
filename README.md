@@ -1,7 +1,7 @@
 # Band Gap Estimator(CLI based)
 
 This is a command-line interface (CLI) tool to estimate the band gap energy of a material from UV-Vis spectroscopy data using the Tauc plot method.
-
+**Platform** : Python
 ## Installation
 
 1.  Make sure you have Python 3 installed on your system.
@@ -42,7 +42,7 @@ To save the Tauc plot to a file (e.g., tauc_plot.png):
 ```bash
 python bandgap_estimator.py --uvvis your_data.txt --plot --output tauc_plot.png
 ```
-##Help:
+## Help:
 
 For more information on the available options, use the --help flag:
 
@@ -64,5 +64,5 @@ $hν$ is the photon energy.
 $n$ is a factor that depends on the nature of the electronic transition ($n=2$ for direct allowed transitions and $n=1/2$ for indirect allowed transitions).
 By extrapolating the linear portion of the plot near the absorption edge to the energy axis, the band gap energy can be estimated.
 
-Contributing
-[]
+## Contributing
+[Contact me](ray94msm@gmail.com) for contributions or any questions.
