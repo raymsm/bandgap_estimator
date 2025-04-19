@@ -1,4 +1,5 @@
 # Band Gap Estimator(CLI based)
+:warning: **Bug present in tauc's module. To be Fixed Soon.**
 
 This is a command-line interface (CLI) tool to estimate the band gap energy of a material from UV-Vis spectroscopy data using the Tauc plot method.
 **Platform** : Python
